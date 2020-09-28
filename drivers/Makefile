@@ -210,5 +210,3 @@ obj-y				+= vibrator/
 
 # Fingerprint
 obj-$(CONFIG_SENSORS_FINGERPRINT) += fingerprint/
-
-obj-y				+= kperfmon/
