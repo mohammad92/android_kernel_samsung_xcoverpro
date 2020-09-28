@@ -206,7 +206,7 @@ config TOUCHSCREEN_DUMP_MODE
 	  If unsure, say N.
 
 config SEC_DEBUG_TSP_LOG
-	tristate "Support for tsp_msg"
+	bool "Support for tsp_msg"
 	default n
 
 comment "Input Device Drivers"
